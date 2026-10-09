@@ -1,0 +1,13 @@
+{
+  "name": "that-is-not-a-hat-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:reconnect": "vitest run src/server/__tests__/reconnection.spec.js"
+  },
+  "dependencies": {
+    "vitest": "^1.0.0"
+  }
+}
