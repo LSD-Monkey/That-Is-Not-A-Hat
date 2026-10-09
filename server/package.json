@@ -1,0 +1,16 @@
+{
+  "name": "that-is-not-a-hat-server",
+  "version": "1.0.0",
+  "description": "Server-side logic for That's Not A Hat game",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  }
+}
